@@ -4,7 +4,7 @@ function getweather(){
 showweather(city.value)
 }
 async function showweather(city){
-    const url = 'https://open-weather13.p.rapidapi.com/city?city=delhi&lang=EN';
+    const url = `https://open-weather13.p.rapidapi.com/city?city=${city}&lang=EN`;
 const options = {
 	method: 'GET',
 	headers: {
